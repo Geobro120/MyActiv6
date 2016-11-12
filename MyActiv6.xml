@@ -63,13 +63,13 @@
         <statement name="DO2">
           <block type="movement_setmotors" id="15" inline="true">
             <value name="BOTHMOVLEFT">
-              <block type="math_number" id="16">
-                <field name="NUM">100</field>
+              <block type="math_number" id="17">
+                <field name="NUM">25</field>
               </block>
             </value>
             <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="17">
-                <field name="NUM">25</field>
+              <block type="math_number" id="16">
+                <field name="NUM">100</field>
               </block>
             </value>
           </block>
@@ -92,13 +92,13 @@
         <statement name="DO3">
           <block type="movement_setmotors" id="21" inline="true">
             <value name="BOTHMOVLEFT">
-              <block type="math_number" id="22">
-                <field name="NUM">25</field>
+              <block type="math_number" id="23">
+                <field name="NUM">100</field>
               </block>
             </value>
             <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="23">
-                <field name="NUM">100</field>
+              <block type="math_number" id="22">
+                <field name="NUM">25</field>
               </block>
             </value>
           </block>
