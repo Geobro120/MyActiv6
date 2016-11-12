@@ -61,50 +61,50 @@
           </block>
         </value>
         <statement name="DO2">
-          <block type="movement_setmotors" id="37" inline="true">
+          <block type="movement_setmotors" id="15" inline="true">
             <value name="BOTHMOVLEFT">
-              <block type="math_number" id="19">
+              <block type="math_number" id="16">
                 <field name="NUM">100</field>
               </block>
             </value>
             <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="18">
+              <block type="math_number" id="17">
                 <field name="NUM">25</field>
               </block>
             </value>
           </block>
         </statement>
         <value name="IF3">
-          <block type="logic_compare" id="15" inline="true">
+          <block type="logic_compare" id="18" inline="true">
             <field name="OP">LT</field>
             <value name="A">
-              <block type="sensor_object" id="16">
+              <block type="sensor_object" id="19">
                 <field name="OBJECT">RIGHTFRONT</field>
               </block>
             </value>
             <value name="B">
-              <block type="math_number" id="17">
+              <block type="math_number" id="20">
                 <field name="NUM">80</field>
               </block>
             </value>
           </block>
         </value>
         <statement name="DO3">
-          <block type="movement_setmotors" id="47" inline="true">
+          <block type="movement_setmotors" id="21" inline="true">
             <value name="BOTHMOVLEFT">
-              <block type="math_number" id="20">
+              <block type="math_number" id="22">
                 <field name="NUM">25</field>
               </block>
             </value>
             <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="21">
+              <block type="math_number" id="23">
                 <field name="NUM">100</field>
               </block>
             </value>
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_stop" id="57"></block>
+          <block type="movement_stop" id="24"></block>
         </statement>
       </block>
     </statement>
